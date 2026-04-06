@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Пакеты
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Донат для каждого игрока</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "🌿 Новичок — 99 ₽",
+              description: "Префикс в чате, цветное имя, доступ к /hat и /nick. Идеально для старта на сервере.",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "⚔ Воин — 249 ₽",
+              description: "Всё из «Новичка» + /fly в мирном мире, 3 дополнительных дома, ежедневный кит с ресурсами.",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "💎 Легенда — 499 ₽",
+              description: "Всё из «Воина» + /fly везде, приват 10 чанков, уникальный плащ и частица вокруг персонажа.",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "👑 Бог сервера — 999 ₽",
+              description: "Максимальные привилегии, VIP-поддержка, доступ к закрытым ивентам и личный варп для друзей.",
               direction: "bottom",
             },
           ].map((service, i) => (
